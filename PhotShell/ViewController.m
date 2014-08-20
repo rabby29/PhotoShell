@@ -72,10 +72,10 @@
 }
 
 -(void)initLoading{
-    CGFloat x= self.view.frame.size.width/2-65;
-    CGFloat y =(self.view.frame.size.height)/2-25;
+    CGFloat x= self.view.frame.size.width/2-80;
+    CGFloat y =(self.view.frame.size.height)/2-40;
     
-    loading=[[LoadingView alloc]initWithFrame:CGRectMake(x, y, 130, 50)];
+    loading=[[LoadingView alloc]initWithFrame:CGRectMake(x, y, 180, 70)];
     loading.hidden=YES;
     [self.view addSubview:loading];
 }
